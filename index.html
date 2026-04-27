@@ -14,7 +14,7 @@
     <header class="hero">
         <h1>مشروع ريادة الأعمال والابتكار</h1>
         <p>نموذج العمل التجاري وبناء مشاريع ابتكارية ناجحة</p>
-        <div class="scroll-down">
+        <div class="scroll-down" onclick="document.getElementById('summary').scrollIntoView({ behavior: 'smooth' })" style="cursor: pointer;">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
                 <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
@@ -24,7 +24,7 @@
 
     <main class="container">
 
-        <section class="section-title">
+        <section id="summary" class="section-title">
             <h2>ملخص نموذج العمل التجاري</h2>
             <p>نظرة شمولية على العناصر الأساسية </p>
         </section>

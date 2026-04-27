@@ -73,6 +73,12 @@ body::before {
     position: absolute;
     bottom: 30px;
     animation: bounce 2s infinite;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.scroll-down:hover {
+    transform: scale(1.2);
 }
 
 @keyframes bounce {
