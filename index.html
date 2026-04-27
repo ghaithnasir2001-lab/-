@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع ريادة الأعمال والابتكار</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>مشروع ريادة الأعمال والابتكار</h1>
+        <p>نموذج العمل التجاري وبناء مشاريع ابتكارية ناجحة</p>
+        <div class="scroll-down">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+            </svg>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section-title">
+            <h2>ملخص نموذج العمل التجاري</h2>
+            <p>نظرة شمولية على العناصر الأساسية </p>
+        </section>
+
+        <div class="canvas-grid">
+            <div class="canvas-item item-partners">
+                <h3><i class="fa-solid fa-handshake"></i> الشركاء الرئيسيون</h3>
+                <p>الشركات والجهات الخارجية التي تساعد في نجاح المشروع.</p>
+            </div>
+
+            <div class="canvas-item item-activities">
+                <h3><i class="fa-solid fa-gears"></i> الأنشطة الرئيسية</h3>
+                <p>التصنيع، التطوير التقني، الاستشارات، وإدارة العمليات.</p>
+            </div>
+
+            <div class="canvas-item item-value">
+                <h3><i class="fa-solid fa-lightbulb"></i> عرض القيمة</h3>
+                <p>الوعد الذي تقدمه الشركة للعميل: الحداثة، الأداء، السعر، التصميم، وسهولة الاستخدام.</p>
+            </div>
+
+            <div class="canvas-item item-relationships">
+                <h3><i class="fa-solid fa-users"></i> علاقات العملاء</h3>
+                <p>بناء تجربة مميزة، طرق التواصل، وتحسين العلاقة لضمان النجاح.</p>
+            </div>
+
+            <div class="canvas-item item-segments">
+                <h3><i class="fa-solid fa-bullseye"></i> فئات العملاء</h3>
+                <p>الفئات المستهدفة التي يسعى المشروع لحل مشاكلها وتلبية احتياجاتها.</p>
+            </div>
+
+            <div class="canvas-item item-resources">
+                <h3><i class="fa-solid fa-box-open"></i> الموارد الرئيسية</h3>
+                <p>موارد مادية، بشرية، مالية، وأصول تقنية مثل الإنترنت والطاقة.</p>
+            </div>
+
+            <div class="canvas-item item-channels">
+                <h3><i class="fa-solid fa-tower-broadcast"></i> القنوات</h3>
+                <p>البيع المباشر، الموزعون، المنصات الإلكترونية، ودعم التسويق.</p>
+            </div>
+        </div>
+
+        <div class="canvas-footer">
+            <div class="canvas-item">
+                <h3><i class="fa-solid fa-money-bill-trend-up"></i> هيكل التكاليف</h3>
+                <p>جميع التكاليف اللازمة لتشغيل المشروع: تكاليف الأنشطة، الموارد، والشراكات.</p>
+            </div>
+            <div class="canvas-item">
+                <h3><i class="fa-solid fa-chart-line"></i> مصادر الإيرادات والفوائد</h3>
+                <p>الفوائد التي يحصل عليها العميل وتحقق الربحية: حل المشكلات وتلبية الاحتياجات.</p>
+            </div>
+        </div>
+
+        <section class="section-title" style="margin-top: 100px;">
+            <h2>تفاصيل عناصر المشروع</h2>
+            <p>استكشف كل عنصر بعمق</p>
+        </section>
+
+        <nav class="tabs-nav">
+            <button class="tab-btn active" onclick="showPage('value', this)">عرض القيمة</button>
+            <button class="tab-btn" onclick="showPage('cost', this)">الميزانية والتكاليف</button>
+            <button class="tab-btn" onclick="showPage('customers', this)">علاقات العملاء</button>
+            <button class="tab-btn" onclick="showPage('channels', this)">القنوات</button>
+            <button class="tab-btn" onclick="showPage('activities', this)">الأنشطة</button>
+            <button class="tab-btn" onclick="showPage('resources', this)">الموارد</button>
+        </nav>
+
+        <div id="value" class="page active bg-value">
+            <h2 style="text-align: center;"><i class="fa-solid fa-lightbulb"></i> عرض القيمة (Value Proposition)</h2>
+            <p>هو الوعد الذي تقدمه الشركة للعميل حول الفائدة التي سيحصل عليها من المنتج أو الخدمة.</p>
+            <ul>
+                <li><strong>الحداثة:</strong> تقديم منتج جديد كلياً.</li>
+                <li><strong>الأداء:</strong> تحسين جودة وكفاءة العمل.</li>
+                <li><strong>السعر:</strong> تقديم أسعار تنافسية.</li>
+                <li><strong>التصميم:</strong> التميز في المظهر والعلامة التجارية.</li>
+                <li><strong>سهولة الاستخدام:</strong> جعل الحياة أبسط للعميل.</li>
+            </ul>
+        </div>
+
+        <div id="cost" class="page bg-cost">
+            <h2 style="text-align: center;"><i class="fa-solid fa-money-bill-trend-up"></i> هيكل التكلفة (Cost
+                Structure)</h2>
+            <p>هي جميع التكاليف اللازمة لتشغيل المشروع وضمان استمراريته.</p>
+            <ul>
+                <li>تكاليف الأنشطة الرئيسية.</li>
+                <li>تكاليف الموارد والمعدات.</li>
+                <li>تكاليف الشراكات والتعاقدات.</li>
+                <li>تكاليف التسويق والتشغيل.</li>
+            </ul>
+        </div>
+
+        <div id="customers" class="page bg-customers">
+            <h2 style="text-align: center;"><i class="fa-solid fa-users"></i> علاقات العملاء (Customer Relationships)
+            </h2>
+            <p>توضح كيف تتعامل الشركة مع العملاء لضمان ولائهم ورضاهم.</p>
+            <ul>
+                <li>بناء تجربة مميزة وفريدة للعميل.</li>
+                <li>تحديد نقاط التفاعل والقنوات المفضلة.</li>
+                <li>توفير دعم فني وتواصل مستمر.</li>
+                <li>ضمان نجاح المنتج في تلبية التوقعات.</li>
+            </ul>
+        </div>
+
+        <div id="channels" class="page bg-channels">
+            <h2 style="text-align: center;"><i class="fa-solid fa-tower-broadcast"></i> القنوات (Channels)</h2>
+            <p>هي الطرق والوسائل التي يصل من خلالها المنتج أو الخدمة إلى العميل النهائي.</p>
+            <ul>
+                <li>البيع المباشر عبر المعارض أو المتاجر.</li>
+                <li>الوسطاء والموزعون المعتمدون.</li>
+                <li>البيع عبر الإنترنت والتطبيقات الذكية.</li>
+                <li>دعم الحملات التسويقية والترويجية.</li>
+            </ul>
+        </div>
+
+        <div id="activities" class="page bg-activities">
+            <h2 style="text-align: center;"><i class="fa-solid fa-gears"></i> الأنشطة الرئيسية (Key Activities)</h2>
+            <p>الأعمال الأساسية التي يجب تنفيذها يومياً لضمان نجاح المشروع.</p>
+            <ul>
+                <li>عمليات التصنيع والإنتاج.</li>
+                <li>التطوير التقني والبرمجي.</li>
+                <li>تقديم الاستشارات والدعم المتخصص.</li>
+                <li>إدارة العمليات اليومية واللوجستية.</li>
+            </ul>
+        </div>
+
+        <div id="resources" class="page bg-resources">
+            <h2 style="text-align: center;"><i class="fa-solid fa-box-open"></i> الموارد الرئيسية (Key Resources)</h2>
+            <p>كل ما تحتاجه الشركة من أصول لتنفيذ أنشطتها وتحقيق قيمتها.</p>
+            <ul>
+                <li>موارد مادية: معدات، أجهزة، سيارات.</li>
+                <li>موارد بشرية: طاقم العمل والخبرات.</li>
+                <li>موارد مالية: السيولة النقدية والتمويل.</li>
+                <li>أصول تقنية: برمجيات، إنترنت، وطاقة.</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>ريادة الأعمال والابتكار </p>
+        <p>تم التطوير من قبل الطلاب :1- غيث ماتاني , 2-فلك علي , 3-هبة طعاني</p>
+    </footer>
+
+    <script>
+        function showPage(pageId, btn) {
+            let pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            let buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+
+            document.getElementById(pageId).classList.add('active');
+            btn.classList.add('active');
+
+            document.getElementById(pageId).scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    </script>
+
+</body>
+
+</html>
